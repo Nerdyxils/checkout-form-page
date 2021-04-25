@@ -1,0 +1,53 @@
+.ck-box {
+    align-self: flex-start;
+    justify-self: flex-start;
+}
+
+.checkout-box {
+    background: #F2F2F2;
+    width: 80%;
+    padding: 20px;
+    margin: 0 auto;
+    min-width: 350px;
+    height: 535px;
+    border-radius: 12px;
+}
+
+.product_name {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19.5px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 0px;
+}
+
+.prices {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 0px;
+}
+
+.new_price {
+    font-size: 16px;
+    font-weight: 600;
+    color: #f2994a;
+}
+
+.old_price {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 14.63px;
+    color: #4e5150;
+    text-decoration: line-through;
+    margin-left: 10px;
+}
+
+.text_col {
+    padding-left: 0;
+}
+
+.image img {
+    width: 90%;
+    min-width: 120px;
+    max-width: 100%;
+    border-radius: 12px;
+}
