@@ -10,12 +10,10 @@ import { Col, Container, Row } from 'react-bootstrap';
 function App() {
   return (
     <BrowserRouter basename={process.env.PUBLIC_URL}>
-    <div className="App">
-      <div className="container">
-        <h1 className="title_head">
+       <Container>
+       <h1 className="title_head">
           Checkout
         </h1>
-       <Container>
          <Row>
             <Col xs={{ span: 12, order: 2 }} md={{ span: 6, order: 1 }} className="form">
               <Form />
@@ -26,13 +24,10 @@ function App() {
             </Col>
           </Row>
         </Container>
-      </div>
 
       <div className="cc">
         <p>created by username - devChallenges.io</p>
       </div>
-      
-    </div>
     </BrowserRouter>
   );
 }

@@ -62,7 +62,7 @@ class Form extends Component {
 
     render() { 
         return ( 
-            <MDBContainer>
+            // <MDBContainer>
                 <MDBRow>
                     <MDBCol sm="12" xs="12" md="12">
                         <MDBCard>
@@ -198,7 +198,7 @@ class Form extends Component {
                         </MDBCard>
                     </MDBCol>
                 </MDBRow>
-            </MDBContainer>
+            // </MDBContainer>
          );
     }
 }
