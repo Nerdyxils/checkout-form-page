@@ -32,6 +32,29 @@ class CheckoutBox extends Component {
                             <Counter />
                         </Col>
                     </Row>
+
+                    <Row className="box-grid">
+                        <Col className="image_col">
+                            <div className="image">
+                                <img src="photo2.png" alt="product photo"/>
+                            </div>
+                        </Col>
+
+                        <Col className="text_col">
+                            <p className="product_name">
+                            Levi Shoes
+                            </p>
+                            <div className="prices">
+                                <small className="new_price">
+                                        $54.99
+                                </small>
+                                <small className="old_price">
+                                    $94.99
+                                </small>
+                            </div>
+                            <Counter />
+                        </Col>
+                    </Row>
                 </div>
             </MDBContainer>
          );
