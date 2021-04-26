@@ -17,11 +17,11 @@ function App() {
         </h1>
        <Container>
          <Row>
-            <Col xs={{ span: 12, order: 2 }} md={{ span: 6, order: 1 }}>
+            <Col xs={{ span: 12, order: 2 }} md={{ span: 6, order: 1 }} className="form">
               <Form />
             </Col>
 
-            <Col xs={{ span: 12, order: 1 }} md={{ span: 6, order: 2 }}  >
+            <Col xs={{ span: 12, order: 1 }} md={{ span: 6, order: 2 }}  className="form-box">
               <CheckoutBox />
             </Col>
           </Row>

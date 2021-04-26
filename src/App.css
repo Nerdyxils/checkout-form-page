@@ -33,6 +33,11 @@ body {
     font-size: 24px;
   }
 
+  .form, .form-box {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+  }
+
   .cc {
     font-size: 12px;
   }
