@@ -3,7 +3,7 @@ import Country from './Country'
 import { FaUserCircle, FaPhoneAlt, FaHome, FaCity } from 'react-icons/fa';
 import { MdEmail, MdMarkunreadMailbox } from 'react-icons/md'
 import { MDBContainer, MDBRow, MDBCol, MDBCard, MDBCardBody } from 'mdb-react-ui-kit';
-import { Button, InputGroup, FormControl, FormCheck } from 'react-bootstrap'
+import { Button, InputGroup, FormControl, FormCheck, Col, Row } from 'react-bootstrap'
 import './form.css'
 // import { MDBCardBody } from 'mdb-react-ui-kit';
 class Form extends Component {
@@ -152,28 +152,31 @@ class Form extends Component {
                                         </InputGroup>
                                     </div>
 
-                                    <InputGroup className="mb-3">
-                                        <div className="form-group">
-                                            <div className="label">
-                                                <label htmlFor="address">Country</label>
+                                    <Row >
+                                        <Col>
+                                            <div className="form-group">
+                                                <div className="label">
+                                                    <label htmlFor="address">Country</label>
+                                                </div>
+                                                <Country />
                                             </div>
-                                            <Country />
-                                        </div>
-
-                                        <div className="form-group" style={{marginLeft: "25px"}}>
-                                            <label htmlFor="postal code">Postal code</label>
-                                            <InputGroup className="mb-3">
-                                            <InputGroup.Prepend>
-                                                <InputGroup.Text id="inputGroup-sizing-sm"><MdMarkunreadMailbox /></InputGroup.Text>
-                                            </InputGroup.Prepend>
-                                                <FormControl type="text" 
-                                                    
-                                                    placeholder="Your postal code"
-                                                    value={this.state.postalcode}
-                                                    onChange={this.postalChange}/>
-                                            </InputGroup>
-                                        </div>
-                                    </InputGroup>
+                                        </Col>
+                                        <Col>
+                                            <div className="form-group">
+                                                <label htmlFor="postal code">Postal code</label>
+                                                <InputGroup className="mb-3">
+                                                <InputGroup.Prepend>
+                                                    <InputGroup.Text id="inputGroup-sizing-sm"><MdMarkunreadMailbox /></InputGroup.Text>
+                                                </InputGroup.Prepend>
+                                                    <FormControl type="text" 
+                                                        
+                                                        placeholder="Your postal code"
+                                                        value={this.state.postalcode}
+                                                        onChange={this.postalChange}/>
+                                                </InputGroup>
+                                            </div>
+                                        </Col>
+                                    </Row>
 
                                     <div className="form-group check-b">
                                         <InputGroup className="mb-3">

@@ -19,3 +19,22 @@ body {
   line-height: 43.88px;
   color: #4e5150;
 }
+
+.cc {
+  font-size: 14px;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: 700;
+  color: #BDBDBD;
+}
+
+@media (max-width: 600px) {
+  .title_head {
+    font-size: 24px;
+  }
+
+  .cc {
+    font-size: 12px;
+  }
+}
+

@@ -55,6 +55,29 @@ class CheckoutBox extends Component {
                             <Counter />
                         </Col>
                     </Row>
+
+                <div className="price_c">
+                    <Row className="cost_add">
+                        <Col className="shipping">
+                            <p>Shipping</p>
+                        </Col>
+
+                        <Col className="shipping_p">
+                            <p>$19</p>
+                        </Col>
+                    </Row>
+
+                    <Row className="t-tal">
+                        <Col className="total">
+                            <p>Total</p>
+                        </Col>
+
+                        <Col className="shipping_p">
+                            <p>$148.98</p>
+                        </Col>
+                    </Row>
+                </div>
+                    
                 </div>
             </MDBContainer>
          );
