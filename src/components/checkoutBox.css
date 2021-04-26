@@ -5,7 +5,7 @@
 
 .checkout-box {
     background: #F2F2F2;
-    width: 80%;
+    width: 90%;
     padding: 20px;
     margin: 0 auto;
     /* min-width: 350px; */
@@ -95,8 +95,8 @@
     }
 
     .container {
-        padding-left: 5px;
-        padding-right: 5px;
+        padding-left: 0px;
+        padding-right: 0px;
     }
 
     .cost_add p, .t-tal p {
